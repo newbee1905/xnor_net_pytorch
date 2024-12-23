@@ -1,0 +1,17 @@
+[project]
+name = "xnor-net-pytorch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lightning>=2.5.0.post0",
+    "numpy>=2.2.1",
+    "pandas>=2.2.3",
+    "tensorboard>=2.18.0",
+    "thop>=0.1.1.post2209072238",
+    "torch>=2.5.1",
+    "torchaudio>=2.5.1",
+    "torchmetrics>=1.6.0",
+    "torchvision>=0.20.1",
+]
